@@ -7,7 +7,7 @@ In this project, we built a deep learning model from scratch to classify rice le
  - Keras – For model creation and layers
  - scikit-learn – For evaluation and metrics
  - matplotlib – For plotting and visualization
- - joblib – For saving and loading trained models
+ - pickle – For saving and loading trained models
  - Streamlit – For building the interactive web app
 
 ## 📈 How the Project Works:
