@@ -8,7 +8,7 @@ This is Project 2 of the Rice Leaf Disease Prediction series, where we used a pr
     - Keras
     - Streamlit
     - Pillow (PIL)
-    - NumP
+    - NumPy
     - Matplotlib
     - Pickle (for saving training history)
   - Model Saving:
