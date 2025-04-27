@@ -51,3 +51,14 @@ This saves the image as a .tar file, useful for sharing without rebuilding.
   - The requirements.txt should list all Python libraries needed by the app.
   - Once the container is up and running, you can open your browser and visit:
     ```http://localhost:8501 ``` 
+## 📦 Steps to Create a Docker Image for Your Project
+  1. Make a Folder/Create a new folder.,br>
+     Put all these inside the folder:
+     - Your project files (Python files, saved model files, requirements.txt, Dockerfile, etc.)
+     - ❌ Don't put the README.md (not needed inside Docker image).
+  2. Open Command Line Interface (CLI)
+  3. Go to Your Project Folder
+     - Use the cd command to go inside your project folder.
+  4. Build the Docker Image
+  5. Run the Docker Image
+  6. Save Your Docker Image (Optional Backup)
