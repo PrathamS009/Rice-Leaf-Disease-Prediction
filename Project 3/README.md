@@ -52,7 +52,7 @@ This saves the image as a .tar file, useful for sharing without rebuilding.
   - Once the container is up and running, you can open your browser and visit:
     ```http://localhost:8501 ``` 
 ## 📦 Steps to Create a Docker Image for Your Project
-  1. Make a Folder/Create a new folder.,br>
+  1. Make a Folder/Create a new folder<br>
      Put all these inside the folder:
      - Your project files (Python files, saved model files, requirements.txt, Dockerfile, etc.)
      - ❌ Don't put the README.md (not needed inside Docker image).
