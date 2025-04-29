@@ -48,7 +48,8 @@ rice_leaf_disease_prediction/
 ├── lib/
 │   └── main.dart
 ├── android/
-│   └── (Updated Gradle files)
+│   └── app/
+│        └── (Updated Gradle files)
 ├── pubspec.yaml
 ```
 
