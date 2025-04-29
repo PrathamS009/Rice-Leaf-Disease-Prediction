@@ -1,8 +1,5 @@
-Here's a complete **README.md** file for your **Rice Leaf Disease Prediction** Flutter app using TFLite:
 
----
 
-```markdown
 # 🌾 Rice Leaf Disease Prediction App (Flutter + TFLite)
 
 A mobile application built using **Flutter** and **TensorFlow Lite** to detect diseases in rice leaves using deep learning. The app allows users to upload an image of a rice leaf and instantly get predictions about its health condition — even offline!
@@ -43,7 +40,7 @@ The trained Keras model was converted to **TensorFlow Lite (TFLite)** for effici
 
 ## 📂 Folder Structure
 
-
+```
 rice_leaf_disease_prediction/
 ├── assets/
 │   ├── rice_model.tflite
@@ -55,7 +52,6 @@ rice_leaf_disease_prediction/
 ├── pubspec.yaml
 ```
 
----
 
 ## 📦 Dependencies
 
