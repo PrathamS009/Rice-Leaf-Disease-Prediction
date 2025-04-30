@@ -19,11 +19,11 @@ A mobile application built using **Flutter** and **TensorFlow Lite** to detect d
 ## 🧠 Model Overview
 
 The model is a custom **Convolutional Neural Network (CNN)** trained on a rice leaf disease dataset with multiple classes:
-
-- Healthy
-- Bacterial Leaf Blight
 - Brown Spot
-- Leaf Smut
+- Healthy
+- Hispa
+- Leaf Blast
+- Leaf Scald
 
 The trained Keras model was converted to **TensorFlow Lite (TFLite)** for efficient on-device inference.
 
@@ -63,26 +63,22 @@ dependencies:
   flutter:
     sdk: flutter
   tflite: ^1.1.2
+  image_picker: ^1.0.4
+  path_provider: ^2.1.2
+  cupertino_icons: ^1.0.2
 ```
 
 ---
 
 ## ⚙️ Setup Instructions
 
-### 1. Clone the Repo
-
-```bash
-git clone https://github.com/your-username/rice_leaf_disease_prediction.git
-cd rice_leaf_disease_prediction
-```
-
-### 2. Install Flutter Packages
+### 1. Install Flutter Packages
 
 ```bash
 flutter pub get
 ```
 
-### 3. Add Your Model and Labels
+### 2. Add Your Model and Labels
 
 Make sure `assets/rice_model.tflite` and `assets/labels.txt` are present and listed in `pubspec.yaml`.
 
@@ -92,7 +88,7 @@ assets:
   - assets/labels.txt
 ```
 
-### 4. Fix Android Build Environment
+### 3. Fix Android Build Environment
 
 - Use **JDK 17**.
 - In `android/gradle.properties`:
@@ -107,11 +103,11 @@ assets:
 
 - In the `tflite` plugin's `build.gradle` (under `.pub-cache`), replace:
   ```gradle
-  compile 'org.tensorflow:tensorflow-lite:+'
+  compile 'org.tensorflow:tensorflow-lite:2.3.0'
   ```
   with:
   ```gradle
-  implementation 'org.tensorflow:tensorflow-lite:+'
+  implementation 'org.tensorflow:tensorflow-lite:2.3.0'
   ```
 
 ---
